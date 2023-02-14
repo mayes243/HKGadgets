@@ -124,8 +124,6 @@ const AddProductModal = ({ active, productSideModal, user, store }) => {
         discountPercent,
       } = createProduct;
 
-      console.log(createProduct, "createProduct");
-
       const payload = {
         storeId: store.id,
         userId: user.id,
